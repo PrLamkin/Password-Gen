@@ -22,16 +22,20 @@
                 <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
             </div>
             <div class="card-footer">
-                <label for="CharNum">Number of Characters</label>
-                <input type="range" min="8" max="128" value="8" id="CharRange">
-                <input type="number" min="8" max="128" value="8" id="CharNum">
-
-                <label for="">Include Uppercase</label>
-                <input type="checkbox" id="IncludeUpperCase">
-                <label for="">Include Numbers</label>
-                <input type="checkbox" id="IncludeNumbers">
-                <label for="">Include Symbols</label>
-                <input type="checkbox" id="IncludeSymbols">
+                <div id="BUTTONS">
+                    <div class="character-amount">
+                        <label for="CharNum">Number of Characters</label>
+                        <input type="range" min="8" max="128" value="8" id="CharRange">
+                        <input class="number-input" type="number" min="8" max="128" value="8" id="CharNum">
+                    </div>
+                    <br>
+                    <label for="">Include Uppercase</label>
+                    <input type="checkbox" id="IncludeUpperCase">
+                    <label for="">Include Numbers</label>
+                    <input type="checkbox" id="IncludeNumbers">
+                    <label for="">Include Symbols</label>
+                    <input type="checkbox" id="IncludeSymbols">
+                </div>
 
                 <button id="generate" class="btn">Generate Password</button>
             </div>

@@ -56,6 +56,28 @@ header {
 
 .card-footer {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#BUTTONS {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.character-amount {
+    display: flex;
+    align-items: center;
+}
+
+.number-input {
+    width: 2rem;
 }
 
 .card-footer::before {
