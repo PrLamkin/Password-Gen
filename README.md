@@ -5,8 +5,8 @@ A very basic password generator for a client, complete with the options feature!
 
 *See Assets folder for screen caps of working product.
 
-Github:
-Deployed Product:
+Github: https://github.com/PrLamkin/Password-Gen
+Deployed Product: https://prlamkin.github.io/Password-Gen/Develop/
 
 Welcome to Definitely Not Peter's Famous Password Generator! [Name still pending] IN this short little section I will describe how to work this wonderous program!
 1. Define characters you want for your password
